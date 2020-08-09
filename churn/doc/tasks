@@ -1,0 +1,31 @@
+Churn exercice tasks:
+
+ok- venv setup (Makefile, virtualenv, jupyter kernel)
+
+- conda setup (Makefile, virtualenv, jupyter kernel)
+
+- VSCODE setup
+
+ok- Dataset inspection
+	ok- describe
+		ok- missing values
+		ok- errors
+	ok- plot distributions
+		ok- multiple plot figure
+		ok- iterator 
+		ok- outliers
+	ok- scatterplots
+		- correlated vars
+
+- try someth on your own
+	- split
+	- pipeline for data transformation?
+		-> normalization?
+	- logistic regression
+	- random forest
+
+	- PCA?
+		-> correlated vars with churn
+	- test with and without normalization?
+
+- tutorial
