@@ -2,5 +2,7 @@ venv
 data
 .vscode
 *.code-workspace
-.python-version
+*.python-version
 .status
+doc/tasks
+src/test_vscode.py

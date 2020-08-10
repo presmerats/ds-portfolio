@@ -9,7 +9,6 @@ import seaborn as sns
 
 
 def print_distribution(dataf, column, axis):
-    # matplotlib histogram
 
     if dataf[column].dtype == "float64" or dataf[column].dtype == "int32":
         bins = int(len(dataf) * 0.01)
@@ -20,10 +19,6 @@ def print_distribution(dataf, column, axis):
         # axis.set(xlabel='x-label', ylabel='y-label')
         # axis.label_outer()
 
-        # seaborn histogram
-        # sns.distplot(dataf[column], hist=True, kde=False,
-        #             bins=bins, color = 'blue',
-        #             hist_kws={'edgecolor':'black'})
     else:
         vc = dataf[column].value_counts()
         counts = vc.values.tolist()
