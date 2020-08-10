@@ -1,0 +1,6 @@
+venv
+data
+.vscode
+*.code-workspace
+.python-version
+.status
