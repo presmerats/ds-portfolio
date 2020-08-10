@@ -29,6 +29,7 @@ setup_venv() {
 # intall
 setup_packages() {
 	pip install -r requirements.txt
+	cd src && pip install -e .
 }
 
 # setup ipython kernel
